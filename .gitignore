@@ -1,1 +1,43 @@
 *.txt
+# Rust build output
+**/target/
+
+# Cargo package files
+**/*.rs.bk
+
+# If you use Clippy lints
+/clippy.toml
+/clippy.lint
+
+# If you use rustfmt
+/rustfmt.toml
+/rustfmt.json
+
+# IDEs and editors
+# VSCode
+.vscode/
+# JetBrains IDEs (IntelliJ, CLion, etc.)
+.idea/
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+# Eclipse
+.project
+.cproject
+# Emacs
+*~
+# Vim
+*.swp
+*.swo
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# By default, ignore node_modules if any frontend present
+node_modules/
+
+# Misc
+*.tmp
+*.bak
