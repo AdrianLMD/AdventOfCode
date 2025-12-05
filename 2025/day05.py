@@ -9,6 +9,7 @@ for line in ranges_raw:
 
 ranges.sort()
 merged_ranges = []
+# für Marc zur Erklärung: if ranges ist quasi if ranges.length > 0
 if ranges:
     start, end = ranges[0]
     for i in range(1,len(ranges)):
