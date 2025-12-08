@@ -1,7 +1,7 @@
 import math
 
 def part1():
-    lines = open("2025\inputs\day06_input_test.txt").read().strip().split("\n")
+    lines = open("day06_input.txt").read().strip().split("\n")
     numbers = lines[:-1] # all lines except last one, since it contains the operators
     operators = lines[-1] # last line only, since it contains the operators
     operators = operators.split() # split into list of operators, split removing unnecessary spaces
@@ -28,7 +28,7 @@ def part1():
     print(f"final sum is {final_sum}")
 
 def part2():
-    lines = open("2025\inputs\day06_input.txt").read().strip("\n").split("\n")
+    lines = open("day06_input.txt").read().strip("\n").split("\n")
     max_len = max(len(line) for line in lines) # finds the largest possible line, needed for padding
     pad_lines = [line.ljust(max_len) for line in lines] # pad lines with spaces to make them all the same length
 
