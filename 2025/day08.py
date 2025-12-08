@@ -1,5 +1,5 @@
 import math
-data = open("2025/day08_input.txt").read().strip().split("\n")
+data = open("day08_input.txt").read().strip().split("\n")
 points = []
 for line in data:
     coords = [int (i) for i in line.split(",")]
