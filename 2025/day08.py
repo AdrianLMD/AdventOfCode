@@ -6,7 +6,7 @@ for line in data:
     points.append(coords)
 limit = 1000
 
-def part02():
+def part2():
     pairs = []
     point_count = len(points)
 
@@ -55,7 +55,7 @@ def part02():
                 print(f"multiplied x-coords of furthest points: {res}")
 
 
-def part01(int: limit):
+def part1(int: limit):
     pairs = []
     point_count = len(points)
 
@@ -119,5 +119,5 @@ def part01(int: limit):
         result *= s
     print(f"Largest 3 ciruits, multiplied: {result}")
 
-# part01(limit)
-part02()
+# part1(limit)
+part2()
