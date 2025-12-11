@@ -19,3 +19,6 @@ for p1, p2 in itertools.combinations(points, 2):
     if area > max_area:
         max_area = area
 print(f"Largest found area: {max_area}")
+
+# part2
+# build szene?
